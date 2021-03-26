@@ -1,0 +1,500 @@
+* {
+    cursor: default
+}
+
+body {
+    margin: 60px 40px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+
+.site {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1035px;
+}
+
+/* ハンバーガーメニュー */
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle i {
+    display: none;
+}    
+
+.nav {
+    display: none;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700px;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+
+.header-wrapper {
+    margin: 0px;
+}
+
+.header-container {
+    display: flex;
+    margin: 25px 0px 80px 0px;
+    align-items: flex-end;
+    position: relative;
+}
+
+.title-container {
+    display: inline-block;
+    margin: 0;
+}
+
+.sub-title {
+    margin: 8px 0px;
+    color: #777777;
+}
+
+.nav-container{
+    margin: 0px;
+    padding-bottom: 8px;
+    padding-left: 200px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nav-item {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.nav-item a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: #4b4a4a;
+}
+
+.fas {
+    font-size: 25px;
+}
+
+.fa-search {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.header-text {
+    font-size: 27px;
+    font-weight: 400px;
+    line-height: 45px;
+    color: #777777;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding-bottom: 25px;
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.days {
+    font-size: 17px;
+    font-weight: 400px;
+    line-height: 30px;
+    color: #666666;
+    width: 40%;
+}
+
+.content-inner {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.content-title {
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 29px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.content-title:hover {
+    color: #c49029;
+}
+
+.content-text {
+    font-size: 17px;
+    font-weight: 400px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.numbers-box {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 120px;
+}
+
+.page-numbers {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 18px;
+    margin-right: 6px;
+    border: solid 1px #777777;
+}
+
+.footer-container {
+    display: flex;
+    border-top: solid 1px #777777;
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+
+.profile-box {
+    width: 30%;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.sns-icon {
+    margin-left: 25px;
+}
+
+.sns-icon h2 {
+    font-size: 19px;
+    font-weight: 600px;
+    line-height: 32px;
+    margin-bottom: 5px;
+}
+
+.fab {
+    font-size: 26px;
+}
+
+.fa-twitter {
+    color: #777777;
+    margin-right: 7px;
+}
+
+.fa-facebook-f {
+    color: #777777;
+    margin-right: 7px;
+}
+
+.fa-instagram-square {
+    color: #777777;
+    margin-right: 7px;
+}
+
+.profile-text {
+    color: #666666;
+    margin-top: 15px;
+    width: 95%;
+}
+
+.footer-right {
+    width: 30%;
+}
+
+.footer-title h4{
+    font-size: 15px;
+    font-weight: 700px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.footer-right-text {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #666666;
+    width: 70%;
+}
+
+.recent-posts {
+    width: 20%;
+}
+
+.recent-posts a {
+    font-size: 17px;
+    font-weight: 400px;
+    color: #666666;
+}
+
+.recent-posts p {
+    font-size: 15px;
+    font-weight: 400px;
+    color: #777777;
+    margin-top: 0;
+}
+
+.category {
+    width: 20%;
+}
+
+.category a {
+    font-size: 17px;
+    font-weight: 400px;
+    color: #666666;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#form1 {
+    width: 100%;
+    margin-top: 75px;
+}
+
+#sbox1 {
+    width: 100%;
+    height: 40px;
+    border: solid 1px #afafaf;
+    padding: 0px 10px;
+}
+
+input, textarea {
+    font-size: 16px;
+}
+
+.footer-bottom {
+    display: flex;
+    border-top: solid 1px #777777;
+    padding-top: 80px;
+    margin-bottom: 100px;
+}
+
+.bottom-icon {
+    margin-right: 15px;
+}
+
+.site-credit {
+    margin: 0 auto;
+}
+
+.bottom-text {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #999999;
+    margin: 0 auto; 
+}
+
+.color:hover {
+    color: black;
+}
+
+@media all and (max-width: 980px) {
+    .site {
+        max-width: 700px;
+    }
+
+    .header-container {
+        display: block;
+    }
+
+    .nav-container {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .content-container {
+        display: block;
+    }
+        
+    .days {
+        margin-bottom: 10px;
+    }
+
+    .content-inner {
+        width: 100%;
+    }
+
+    .numbers-box {
+        text-align: start;
+    }
+
+    .footer-container {
+        display: block;
+    }
+
+    .profile-box {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .footer-right {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .footer-right-text {
+        width: 100%;
+    }
+
+    .recent-posts {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .category {
+        width: 100%;
+    }
+
+    #form1 {
+        width: 320px;
+    }
+
+    .footer-bottom {
+        display: block;
+    }
+
+    .sns-icon-bottom {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 782px) {
+    body {
+        margin: 15px 20px 45px 20px;
+        position: relative;
+    }
+
+    .title-container h1 {
+        font-size: 30px;
+    }
+
+    .nav-wrapper {
+        display: none;
+    }
+    
+    .fa-search {
+        display: none;
+    }
+
+    /* ハンバーガーメニュー */
+
+    .nav-hum {
+        position: fixed;
+        top: 15px;
+        right: 10px;
+        z-index: 10;
+    }
+
+    .nav-toggle {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        width: 1.75rem;
+        height: 1.5rem;
+    }
+    .nav-toggle i {
+        display: block;
+        cursor: pointer;
+        width: 100%;
+        height: 2px;
+        background-color: #333;
+        position: absolute;
+        transition: transform .5s, opacity .5s;
+    }
+    .nav-toggle i:nth-child(1) {
+        top: 0;
+    }
+    .nav-toggle i:nth-child(2) {
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .nav-toggle i:nth-child(3) {
+        bottom: 0;
+    }
+    
+    .nav-toggle.show i:nth-child(1) {
+        transform: translateY(10px) rotate(-45deg);
+    }
+    .nav-toggle.show i:nth-child(2) {
+        opacity: 0;
+    }
+    .nav-toggle.show i:nth-child(3) {
+        transform: translateY(-12px) rotate(45deg);
+    }
+    
+    nav {
+        display: none;
+        position: fixed;
+        top: 3rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 16px;
+        margin-top: 0;
+    }
+    
+    .nav.show {
+        background-color: rgba(255,255,255,0.8);
+        display: block;
+        z-index: 9;
+    }
+
+    .nav-menu-ul {
+        text-align: center;
+    }
+
+    .nav-menu-li {
+        list-style: none;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sub-menu {
+        font-size: 17px;
+    }
+
+    .nav-menu-li a {
+        text-decoration: none;
+        color: #777777;
+        cursor: pointer;
+    }
+    
+    .profile-text {
+        font-size: 14px;
+    }
+
+    .footer-title h4 {
+        font-size: 12px;
+    }
+
+    .footer-right-text {
+        font-size: 13px;
+    }
+
+    .recent-posts a {
+        font-size: 14px;
+    }
+
+    .recent-posts p {
+        font-size: 12px;
+    }
+
+    .category a {
+        font-size: 14px;
+    }
+
+}
